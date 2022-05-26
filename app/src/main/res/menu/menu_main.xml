@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.damla.otopay.MainActivity">
+    <item
+        android:id="@+id/DashboardFragment"
+        android:title="Anasayfa"
+        android:icon="@drawable/home_logo"/>
+    <item
+        android:id="@+id/profileFragment2"
+        android:title="Profil"
+        android:icon="@drawable/profil"/>
+    <item
+        android:id="@+id/profileFragment"
+        android:title="QR ile Al"
+        android:icon="@drawable/empty"/>
+    <item
+        android:id="@+id/MapFragment"
+        android:title="Keşfet"
+        android:icon="@drawable/discover"/>
+    <item
+        android:id="@+id/OtomatFragment"
+        android:title="Otomat"
+        android:icon="@drawable/automat"/>
+</menu>
